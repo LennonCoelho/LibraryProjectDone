@@ -1,5 +1,10 @@
 <template>
   <v-app>
+    <toast
+      :key="0"
+      position="se"
+    />
+
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>Library</span>
@@ -34,12 +39,11 @@
 </template>
 
 <script>
+import { Toast } from 'vuex-toast'
+
 export default {
-  name: 'App',
-  data () {
-    return {
-      //
-    }
+  components: {
+    Toast
   }
 }
 </script>
