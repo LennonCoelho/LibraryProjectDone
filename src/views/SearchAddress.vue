@@ -131,5 +131,5 @@ export default {
 </script>
 
 <style lang="scss">
-  .v-content.address .v-content__wrap { background: url(../assets/bg-address.jpg) center center no-repeat; background-size: auto 100%; }
+  .v-content.address .v-content__wrap { background: url(../assets/bg-address.jpg) center center no-repeat; background-size: auto 130%; }
 </style>
