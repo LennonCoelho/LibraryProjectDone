@@ -1,4 +1,4 @@
-# library-project
+# Library Project
 
 ## Project setup
 ```

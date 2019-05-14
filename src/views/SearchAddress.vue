@@ -88,7 +88,7 @@ export default {
       { text: 'Localidade', value: 'localidade' },
       { text: 'UF', value: 'uf' },
       { text: 'IBGE', value: 'ibge' }
-    ],
+    ]
   }),
   methods: {
     // Definição do método com o parâmetro CEP
