@@ -1,9 +1,9 @@
 const { host, protocol } = window.location
 
 const API_URL = `${protocol}//${host}`
-const API_VIACEP = 'https://viacep.com.br/ws'
+const API_BOOKS = 'https://api.jaxs.io/books'
 
 export default {
   API_URL,
-  API_VIACEP
+  API_BOOKS
 }

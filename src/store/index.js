@@ -4,14 +4,14 @@ import createPersistedState from 'vuex-persistedstate'
 import { createModule } from 'vuex-toast'
 import 'vuex-toast/dist/vuex-toast.css'
 import * as actions from './modules/cleanStorage'
-import SearchAddress from './modules/searchAddress'
+import Books from './modules/books'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   actions,
   modules: {
-    SearchAddress,
+    Books,
     toast: createModule({
       dismissInterval: 3000
     })

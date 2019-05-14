@@ -1,8 +1,8 @@
-import { CLEAR_SEARCH_ADDERSS_STORE } from './searchAddress'
+import { CLEAR_BOOKS_STORE } from './books'
 
 export const cleanStorage = ({ commit }) => {
   const mutations = [
-    CLEAR_SEARCH_ADDERSS_STORE
+    CLEAR_BOOKS_STORE
   ]
 
   mutations.map(mutation => commit(mutation))
